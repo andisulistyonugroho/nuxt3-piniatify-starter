@@ -1,0 +1,10 @@
+$font: Mulish, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Ubuntu,"Droid Sans","Helvetica Neue",sans-serif;
+@use 'vuetify/lib/styles/main.sass' with (
+  $color-pack: true,
+  $body-font-family: $font,
+  // $font-size-root: 14px
+);
+
+.text-tiny {
+  font-size: 0.55rem !important;
+}
